@@ -4,7 +4,7 @@
 <%
 	Connection conn = null;
 	try{
-		String url = "jdbc:mysql://localhost:3306/shopping";
+		String url = "jdbc:mysql://localhost:3306/shop_db";
 		String user = "root";
 		String pwd = "1234";
 		
