@@ -6,7 +6,7 @@
 	try{
 		String url = "jdbc:mysql://localhost:3306/shop_db";
 		String user = "root";
-		String pwd = "5328";
+		String pwd = "";
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(url, user, pwd);
