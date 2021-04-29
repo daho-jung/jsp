@@ -1,0 +1,15 @@
+//database
+use database 'imgctrl'
+in imgctrl, 
+
+--MEMBERS--
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| ID       | varchar(10) | NO   | PRI | NULL    |       |
+| password | varchar(20) | NO   |     | NULL    |       |
+| name     | varchar(10) | NO   |     | NULL    |       |
+| address  | varchar(30) | YES  |     | NULL    |       |
+| email    | varchar(40) | YES  |     | NULL    |       |
+| phone    | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
