@@ -7,12 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post" action="login_p.jsp">
-		<p> id: <input type="text" name="id">
-		<p> pw: <input type="password" name="pw">
-		<p><input type="submit" value="ok"><br>
-		<p><a href='http://localhost:8080/ttt/register.jsp'>register</a>
-		<p><a href='http://localhost:8080/ttt/fid.jsp'>find id</a>
-	</form>
+	<form method="post" action="fid_p.jsp">
+		<p>name : <input type="text" name="name">
+		<p><input type="submit" value="ok">
+	</form>	
 </body>
 </html>

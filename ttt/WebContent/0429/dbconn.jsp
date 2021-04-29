@@ -4,13 +4,13 @@
 <%
 	Connection conn = null;
 	try{
-		String url = "jdbc:mysql://localhost:3306/shopping";
+		String url = "jdbc:mysql://localhost:3306/imgctrl";
 		String user = "root";
 		String pwd = "1234";
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(url, user, pwd);
-		out.println("connect success<br>");
+		//out.println("connect success<br>");
 	}catch(SQLException e){
 		out.println(e.getMessage());
 	}finally{
